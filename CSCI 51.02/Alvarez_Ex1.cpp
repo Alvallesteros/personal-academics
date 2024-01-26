@@ -18,5 +18,11 @@ int main(int argc, char* argv[]) {
         } 
         cout << endl;
     }
+
+    cout << endl << "### Exercise 1.3 ###" << endl;
+    for(int i = 0; i < argc; i++) {
+        printf("%c\n", argv[i][0]); //Prints the first Character of the String
+        printf("%s\n", argv[i]+1); //Shifts the start of the string 1 character to the left
+    }
     return 0;
 }
