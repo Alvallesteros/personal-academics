@@ -21,11 +21,18 @@ char pop(){
 }
 
 void application(){
-    push('x');
-    push('y');
-    push('z');
-    char ans = pop();
-    printf("Popped : %c \n", ans);
+    push('a');
+    push('b');
+    push('c');
+    push('d');
+    push('e');
+    pop();
+    pop();
+    pop();
+    pop();
+    push('f');
+    push('g');
+    printf(Store);
 }
 
 int main(){
