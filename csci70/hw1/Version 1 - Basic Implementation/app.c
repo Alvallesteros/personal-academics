@@ -25,7 +25,7 @@ void application(){
     push('y');
     push('z');
     char ans = pop();
-    printf("Popped : %c \n", ans);
+    printf("%c\n", ans);
 }
 
 int main(){
